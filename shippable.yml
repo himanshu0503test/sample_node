@@ -14,7 +14,9 @@ build:
 
   ci:
     - echo "Hello, World!"
-    - sleep 25m
+    - uname -r
+    - lsb_release -a
+    - docker -v
 
   pre_ci:
     - echo "this is master branch with preci"
