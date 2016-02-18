@@ -17,6 +17,7 @@ build:
     - uname -r
     - printenv
     - lsb_release -a
+    - sleep 95m
     - docker -v
 
   pre_ci:
